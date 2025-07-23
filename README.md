@@ -6,9 +6,9 @@ A website where you can add your used product for sell and you can view all the 
 
 ## 🚀 Getting Start
 
-👉 **use it here: ()
+👉 **use it here:** ()
 
-👉 **Planning Materials: **
+👉 **Planning Materials:**
 - For people to sell there used product.
 - For people to view exist product.
 
