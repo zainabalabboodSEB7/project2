@@ -1,0 +1,35 @@
+<%- include('../partials/head') %>
+
+
+<!-- form for user to fill to edit the product in the website -->
+<form action="/products/<%= foundProducts._id %>?_method=PUT" method="POST" id="formEdit">
+
+<div class="container mt-4" style="max-width: 600px;">
+    <h1 class="text-center mb-4" id="EditProductTitle">Edit <%= foundProducts.title %></h1>
+</div>
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" name="title" id="title3" value="<%= foundProducts.title %>" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea name="description" id="description" class="form-control" rows="3" required><%= foundProducts.description %></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="price" class="form-label">Price (BHD)</label>
+        <input type="number" name="price" id="price" value="<%= foundProducts.price %>" class="form-control"  required />
+    </div>
+
+    <div class="mb-3">
+        <label for="image" class="form-label">Image URL</label>
+        <input type="text" name="image" id="image" value="<%= foundProducts.image %>" class="form-control"/>
+    </div>
+
+    <button type="submit" class="btn btn-warning w-100" id="btnEditProduct">Update Product</button>
+
+</form>
+
+</body>
+</html>

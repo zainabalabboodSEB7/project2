@@ -1,0 +1,24 @@
+<%- include('./partials/head') %>
+
+<!-- if the user logged in -->
+<% if (user) { %>
+<h1 class="display-4 mb-3" id="homeWelcome">Welcome to our website, <%= user.username %>!</h1>
+<div class="text-center">
+  <img src="../asset /electronic.png" class="rounded" alt="electronic" id="imageHome">
+</div>
+<p class="lead mb-4">were you can sell, view and discover special electronics device 
+in Bahrain.</p>
+
+<% } else { %>
+
+<!-- if the user did not logged in -->
+  <h1 class="display-4 mb-3" id="homeWelcome2">Welcome to our website</h1>
+<div class="text-center">
+  <img src="../asset /electronic.png" class="rounded" alt="electronic" id="imageHome">
+</div>
+<p class="lead mb-4">were you can sell, view and discover special electronics device 
+in Bahrain.</p>
+
+<% } %>
+</body>
+</html>

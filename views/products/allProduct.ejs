@@ -1,0 +1,26 @@
+<%- include('../partials/head') %>
+
+<!-- for user to can see all the product exisit in the website -->
+<div class="container mt-4">
+    <h1 class="text-center mb-4" id="productList-title">Product List</h1>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <% foundProducts.forEach((product) => { %>
+        <div class="col">
+            <div class="card h-100">
+                <img src="<%= product.image.url %>" class="card-img-top" alt="Image of <%= product.title %>" id="imageProduct">
+                <div class="card-body">
+                    <h5 class="card-title"><%= product.title %></h5>
+                    <p class="card-text"><%= product.description %></p>
+                    <p class="card-text" id="productPrice"><strong><%= product.price %> BHD</strong></p>
+                    <a href="/products/<%= product._id %>" class="btn btn-primary" id="viewProduct-btn">View Product</a>
+                </div>
+            </div>
+        </div>
+
+    <% }) %>
+</div>
+</div>
+
+</body>
+</html>

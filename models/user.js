@@ -1,5 +1,7 @@
+//import mongoose
 const mongoose = require('mongoose')
 
+//define user schema
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
@@ -11,5 +13,8 @@ const userSchema = new mongoose.Schema({
     },
 }, { timestamps: true })
 
+//based on the schema create a user
 const User = mongoose.model('User', userSchema)
+
+//export user module
 module.exports = User

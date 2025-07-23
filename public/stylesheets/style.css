@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro&display=swap');
+
+.body2 {
+    font-family: 'Jaro';
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+#home-h1{
+    padding-top: 50px;
+}
+
+#title{
+    font-size: 50px;
+}
+
+#navbar{
+    font-size: 30px;
+    background-color: #023859;
+    color: white;
+}
+
+#navbar2{
+ font-size: 50px;
+}
+
+#productList-title{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+#imageProduct{
+    height: 300px;
+    padding: 20px 20px 20px 20px;
+}
+
+.card-title{
+    text-align: left;
+    font-size: 30px;
+}
+
+.card-text{
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#productPrice{
+    text-align: right;
+}
+
+#viewProduct-btn{
+    background-color: #37769D;
+}
+
+#productContainer{
+    background-color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#imageProduct2{
+    height: 300px;
+    float: left;
+    margin: 70px 80px 30px 30px;
+}
+
+#deviceTitle{
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+#descriptionP{
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+#commentleave{
+    display: flex;
+    margin: 55px;
+}
+
+#leaveComment{
+    padding-right: 30px;
+}
+
+
+#leaveCommentTextarea{
+    margin-right: 40px;
+    border: solid black;
+}
+
+#btnPostComment{
+    margin-right: 30px;
+    background-color: #BFD5E6;
+    border:#BFD5E6;
+    color: black;
+}
+
+#titleComment{
+    margin-bottom: 30px;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+#commentExist{
+    margin-right: 30px;
+    margin-left: 400px;
+}
+
+#addProductTitle{
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+#formAdd{
+    background-color: #BFD5E6;
+    border: 20px solid #023859;
+    color: black;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#formAdd label{
+    float: left;
+}
+
+#btnAppProduct{
+    background-color: #37769D;
+    padding: 10px 70px 10px 70px;
+    font-size: 20px;
+}
+
+#EditProductTitle{
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+#formEdit{
+    background-color: #BFD5E6;
+    border: 20px solid #023859;
+    color: black;
+    padding: 20px;
+    margin: 50px 320px 50px 320px;
+}
+
+#formEdit label{
+    float: left;
+}
+
+#btnEditProduct{
+    background-color: #37769D;
+    border: #37769D;
+    color: white;
+    padding: 10px 70px 10px 70px;
+    font-size: 20px;
+}
+
+#signInForm{
+    background-color: #BFD5E6;
+    border: 20px solid #023859;
+    color: black;
+    padding: 50px;
+    margin: 50px 320px 50px 320px;
+    font-size: 20px;
+}
+
+.titlSignIn{
+    padding-bottom: 50px;
+}
+
+.username{
+    padding-bottom: 50px;
+}
+
+#username{
+    width: 300px;
+    margin-left: 30px;
+}
+
+.password{
+    padding-bottom: 50px;
+}
+
+#password{
+    width: 300px;
+    margin-left: 30px;
+}
+
+#btnSignIn{
+    background-color: #37769D;
+    border: #37769D;
+    color: white;
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 30px;
+}
+
+#signUpForm{
+    background-color: #BFD5E6;
+    border: 20px solid #023859;
+    color: black;
+    padding: 50px;
+    margin: 50px 320px 50px 320px;
+    font-size: 20px;
+}
+
+.titlSignUp{
+    padding-bottom: 50px;
+}
+
+.username{
+    padding-bottom: 50px;
+}
+
+#username{
+    width: 300px;
+    margin-left: 90px;
+}
+
+.password{
+    padding-bottom: 50px;
+}
+
+#password{
+    width: 300px;
+    margin-left: 90px;
+}
+
+.confirmPassword{
+    padding-bottom: 50px;
+}
+
+#confirmPassword{
+    width: 300px;
+    margin-left: 30px;
+}
+
+#btnSignUp{
+    background-color: #37769D;
+    border: #37769D;
+    color: white;
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 30px;
+}
+
+#homeWelcome{
+    float: left;
+    padding-top: 45px; 
+    padding-left: 20px;
+}
+
+#homeWelcome2{
+    text-align: center;
+    padding-top: 45px; 
+}
+
+#imageHome{
+    padding-right: 400px;
+    padding-left: 450px;
+}

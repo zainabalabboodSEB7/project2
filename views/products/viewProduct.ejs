@@ -1,0 +1,54 @@
+<%- include('../partials/head') %>
+
+<!-- for the container available in the website -->
+<div class="container mt-4" style="max-width: 700px;">
+    <h2 class="text-center mb-3" id="deviceTitle"><%= foundProducts.title %></h2>
+</div>
+
+<!-- to edit information in the website -->
+<div id="productContainer">
+    <img src="<%= foundProducts.image.url %>" class="img-fluid rounded mb-3" alt="Image of <%= foundProducts.title %>" id="imageProduct2">
+
+    <p class="lead" id="descriptionP"><%= foundProducts.description %></p>
+    <p><strong>Price: </strong><%= foundProducts.price %> BHD</p>
+    <p><strong>Seller: </strong><%= foundProducts.seller.username %></p>
+
+<% if (foundProducts.seller._id.equals(user._id)){ %>
+
+    <!-- edit and delete button -->
+    <div class="d-flex justify-content-between mb-4">
+        <form action="/products/<%= foundProducts._id %>?_method=DELETE" method="POST">
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a href="/products/<%= foundProducts._id %>/edit" class="btn btn-warning">Edit</a>
+        </form>
+
+        
+    </div>
+<% } %>
+
+<!-- form for the user to add comment and post it in the website -->
+<form action="/products/<%= foundProducts._id %>/comments" method="POST" class="mb-4">
+    <div class="mb-3" id="commentleave">
+        <h3 class="text-center" id="leaveComment">Leave a comment: </h3>
+        <textarea id="leaveCommentTextarea" name="content" class="form-control" rows="3" required></textarea>
+        <button type="submit" class="btn btn-primary" id="btnPostComment">Post Comment</button>
+    </div>
+</form>
+
+<!-- for comment to be see in the website with the username -->
+<h3 class="text-center" id="titleComment">Comments</h3>
+<ul class="list-group">
+    <% foundProducts.Comments.forEach((comment) => { %>
+
+        <li class="list-group-item" id="commentExist">
+    <%= comment.content %> - <em><%= comment.author.username %></em>
+</li>
+
+    <% }) %>
+
+</ul>
+</div>
+</div>
+
+</body>
+</html>
