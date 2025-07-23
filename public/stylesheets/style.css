@@ -264,3 +264,11 @@
     padding-right: 400px;
     padding-left: 450px;
 }
+
+#btnNave{
+color: white;
+}
+
+#btnNave:hover{
+    color: grey;
+}

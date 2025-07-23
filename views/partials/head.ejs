@@ -22,12 +22,12 @@
 <ul class="navbar-nav ms-auto">
         
         <li class="nav-item">
-          <a class="nav-link" href="/products">All Product</a>
+          <a class="nav-link" href="/products" id="btnNave">All Product</a>
         </li>
 
     <% if (user){ %>
       <li class="nav-item">
-        <a class="nav-link" href="/products/addNewProduct">Add Product</a>
+        <a class="nav-link" href="/products/addNewProduct" id="btnNave">Add Product</a>
       </li>
     <% } %>
 
@@ -42,11 +42,11 @@
         <% } else { %>
 
         <li class="nav-item">
-            <a class="nav-link" href="/auth/sign-in">Sign In</a>
+            <a class="nav-link" href="/auth/sign-in" id="btnNave">Sign In</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="/auth/sign-up">Sign Up</a>
+            <a class="nav-link" href="/auth/sign-up" id="btnNave">Sign Up</a>
         </li>
 
         <% } %>
