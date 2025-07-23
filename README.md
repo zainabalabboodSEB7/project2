@@ -6,7 +6,7 @@ A website where you can add your used products for sell and you can view all the
 
 ## 🚀 Getting Start
 
-👉 **use it here:** (https://zainabalabboodseb7.github.io/project2/)
+👉 **use it here:** (https://multi-electronic-app-dd038cc1bcc0.herokuapp.com/)
 
 👉 **Planning Materials:**
 - For people to sell there used products.
