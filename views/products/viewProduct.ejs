@@ -13,7 +13,7 @@
     <p><strong>Price: </strong><%= foundProducts.price %> BHD</p>
     <p><strong>Seller: </strong><%= foundProducts.seller.username %></p>
 
-<% if (foundProducts.seller._id.equals(user._id)){ %>
+<% if (foundProducts.seller?._id == user?._id){ %>
 
     <!-- edit and delete button -->
     <div class="d-flex justify-content-between mb-4">
