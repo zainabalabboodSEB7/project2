@@ -222,6 +222,33 @@
     margin-left: 90px;
 }
 
+.name{
+    padding-bottom: 50px;
+}
+
+#name{
+    width: 300px;
+    margin-left: 125px;
+}
+
+.phone{
+    padding-bottom: 50px;
+}
+
+#phone{
+    width: 300px;
+    margin-left: 125px;
+}
+
+.age{
+    padding-bottom: 50px;
+}
+
+#age{
+    width: 300px;
+    margin-left: 135px;
+}
+
 .password{
     padding-bottom: 50px;
 }
